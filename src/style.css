@@ -1,0 +1,35 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+}
+
+nav {
+    background-color: rgba(33, 34, 42, 1);
+    display: flex;
+    padding: 30px 25px;
+    align-items: center;
+    height: 90px;
+
+}
+
+.nav--icon {
+    height: 30px;
+    padding-right: 15px;
+}
+
+.nav--logo_text {
+    color: rgba(0, 216, 255, 1);
+    font-size: 22.25px;
+    font-weight: 700;
+    
+}
+
+.nav--title{
+    color: rgba(222, 235, 248, 1);
+    margin-left: auto;
+    font-size: 16px;
+}
