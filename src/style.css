@@ -5,6 +5,7 @@
 body {
     margin: 0;
     font-family: 'Inter', sans-serif;
+    background-color: rgba(40, 45, 53, 1);
 }
 
 nav {
@@ -32,4 +33,44 @@ nav {
     color: rgba(222, 235, 248, 1);
     margin-left: auto;
     font-size: 16px;
+}
+
+h1 {
+    margin: 0;
+}
+
+main {
+    
+    margin: 0;
+    padding: 0;
+    background-image: url(./images/reactjs-icon.png);
+    background-repeat: no-repeat;
+    background-position: 100%;
+}
+
+.main--title {
+    color: rgba(255, 255, 255, 1);
+    padding: 30px 0 0 40px;
+    font-size: 40px;
+    letter-spacing: -.05em;
+    margin: 0;
+    font-weight: bold;
+}
+
+.main--facts {
+    color: rgba(255, 255, 255, 1);
+    font-size: 16px;
+    margin-top: 46px;
+    padding-left: 75px;
+    max-width: 400px;
+}
+
+.main--facts > li {
+    line-height: 19px;
+    padding-block: 10px;
+}
+
+.main--facts > li::marker {
+    color:rgba(0, 216, 255, 1);
+    font-size: 1.4rem;
 }
